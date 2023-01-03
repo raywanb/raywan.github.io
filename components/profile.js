@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Flex, Box, Text, Heading, HStack, Divider,Center, VStack, Spacer} from "@chakra-ui/react"
 
 export const Profile = () =>{

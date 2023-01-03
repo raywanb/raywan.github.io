@@ -2,13 +2,11 @@
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
-import { Front } from './components/front'
-import { Project } from './components/project'
-import {Navbar} from './components/navbar'
-import {Head} from "./components/Head"
-import {Profile} from "./components/profile"
-import { ProjectSection } from './projectsection'
-import { Connect } from './connect'
+import {Navbar} from '../components/navbar'
+import {Head} from "../components/Head"
+import {Profile} from "../components/profile"
+import { ProjectSection } from '../projectsection'
+import { Connect } from '../connect'
 const inter = Inter({ subsets: ['latin'] })
 
 

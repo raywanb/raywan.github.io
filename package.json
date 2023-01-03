@@ -2,7 +2,7 @@
   "name": "personalwebsite",
   "version": "0.1.0",
   "private": true,
-  "homepage":"http://raywanb.github.io/site"
+  "homepage":"http://raywanb.github.io/site",
   "scripts": {
     "dev": "next dev",
     "predeploy" : "next build",

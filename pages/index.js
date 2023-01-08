@@ -19,7 +19,7 @@ export default function Home() {
       <Head></Head>
       <Profile></Profile>
       <ProjectSection></ProjectSection>
-      <Connect></Connect>
+      {/* <Connect></Connect> */}
     </>
   )
 }

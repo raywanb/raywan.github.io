@@ -23,8 +23,6 @@ import {
     const {colorMode, toggleColorMode} = useColorMode()
     const isDark = colorMode ==="dark"
 
-    
-
     return (
         <HStack mt="2vh">
             <Flex w="80%">

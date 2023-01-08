@@ -35,8 +35,8 @@ import {
             </Flex>
             <Button leftIcon={<FaDownload/>} borderRadius="3xl" fontFamily={"Lato"} onClick={()=> window.open("https://drive.google.com/file/d/1GPurogiD1dwhphR07-dqVAUV0G5q3Hhq/view?usp=sharing")}>Resume</Button>
             <IconButton icon={isDark? <FaSun/>: <FaMoon/>} isRound="true" onClick={toggleColorMode}></IconButton>
-            <IconButton icon={<FaLinkedin/>} isRound="true"></IconButton>
-            <IconButton icon={<FaGithub/>} isRound="true" mr="20vw"></IconButton>
+            <IconButton icon={<FaLinkedin/>} isRound="true" onClick={()=> window.open("https://www.linkedin.com/in/ray-wan/")}></IconButton>
+            <IconButton icon={<FaGithub/>} isRound="true" mr="20vw" onClick={()=> window.open("https://github.com/raywanb?tab=repositories")} ></IconButton>
             <Spacer></Spacer>
         </HStack>
     )

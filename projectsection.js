@@ -27,7 +27,7 @@ export const ProjectSection = () => {
                                 }}>
                         <Card maxW='sm' bg={value} borderRadius={"3xl"} variant="outline">
                             <CardBody>
-                            <Img src={"https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/260/958/datas/gallery.jpg"} borderRadius='lg'/>
+                            <Img src={"https://media.cleanshot.cloud/media/47876/zI21HMVUjgoZT6xsInkEg8iWb9hrGQN6iYcjh4qO.jpeg?Expires=1673187806&Signature=gHOVvZSa8ZOBsFHg6nWwREYyzl5axLlRKgea281BsV~wF6wTbwyh0KHVfVAcW6BULXbSHwCna~BHTBZbRzlC-1ljziaZMmyHc-ds549AOUzI~i1RyObqewJ7A7tjteS3g2BCy2UzIkxkLYeQOqwQKffNLFM0meoc7ClK-AIjEmfdYWOGakZyeyyv4p6csk5Wody33-142zPCz5qs-lvL-ifWaXUH3y9~0cfXkxwgIRmgCbwADgGxCSS7pEIgpdqS92RYC~m9abXneLoPmsbfjLCJgM9qDd~~aLOFUnpGZog4yEdzLtTGwYjo~KkZuYdq2Nm~6U2M-Xy2IzTwLo2QtQ__&Key-Pair-Id=K269JMAT9ZF4GZ"} borderRadius='lg'/>
                             <Stack mt='6' spacing='3'>
                                 <Heading color="blue.300"size='lg'>Notiom</Heading>
                                 <Heading size="xs">
@@ -57,7 +57,7 @@ export const ProjectSection = () => {
                             <Divider />
                             <CardFooter>
                             <ButtonGroup spacing='2'>
-                                <Button variant='solid' color='white' bg="blue.300" onClick={() => window.open(link)} >
+                                <Button variant='solid' color='white' bg="blue.300" onClick={() => window.open("https://github.com/raywanb/Notiom")} >
                                     Learn More
                                 </Button>
                                 </ButtonGroup>
@@ -108,7 +108,7 @@ export const ProjectSection = () => {
                             <Divider />
                             <CardFooter>
                             <ButtonGroup spacing='2'>
-                                <Button variant='solid' color='white' bg="red.300" onClick={() => window.open(link)} >
+                                <Button variant='solid' color='white' bg="red.300" onClick={() => window.open("https://github.com/raywanb/Moodify")} >
                                     Learn More
                                 </Button>
                                 </ButtonGroup>
@@ -124,7 +124,7 @@ export const ProjectSection = () => {
                         }}>
                         <Card maxW='sm' bg={value} borderRadius={"3xl"} variant="outline">
                             <CardBody>
-                            <Img src={"https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/260/958/datas/gallery.jpg"} borderRadius='lg'/>
+                            <Img src={"https://media.cleanshot.cloud/media/47876/KY9wM0ymFdh6Gsf98MruCSlwdlJQF31mGkobNpsY.jpeg?Expires=1673188112&Signature=jprJiom6EFkqYrUTePRiFF3goxHMo67d7bTXW8g3ISUbhulC9CVEmrm64Jz6WDi3z~DoDUF0HTgTeL-9CfPZF1eOVqryTfSCB8JWWSdSjGUYprCv9nDnUmnB0dQqTbLEkSnzjyoAKM6aSW8qyFDrLu4R2Fnn97X9LCYz8gDl0GAiAMx1nrAKmnuc1-WKZmSe3BrDTWjuLMSx48zUlZTptqqo9BmJzIwfJMYmg2aVbJpZhAwYrXvWDUG~sTQpjCReOSBUv3N6rUOEVl8gjW9X-egwQnPauQ~0b-6A-ZuCtiN7lXVZefaib~7F-nwdRXRsY6zQZ9~AaDeloMQqCB12Dg__&Key-Pair-Id=K269JMAT9ZF4GZ"} borderRadius='lg'/>
                             <Stack mt='6' spacing='3'>
                                 <Text color="purple.400" fontSize='1.55rem' as="h1">Pairs Trading Algorithm</Text>
                                 <Heading size="xs">
@@ -148,7 +148,7 @@ export const ProjectSection = () => {
                             <Divider />
                             <CardFooter>
                             <ButtonGroup spacing='2'>
-                                <Button variant='solid' color='white' bg="purple.400" onClick={() => window.open(link)} >
+                                <Button variant='solid' color='white' bg="purple.400" onClick={() => window.open("https://github.com/raywanb/pairstrading")} >
                                     Learn More
                                 </Button>
                                 </ButtonGroup>

@@ -33,7 +33,7 @@ import {
                 <Heading
                     ml="0.5%" size="md" fontWeight="bold" color={isDark?"blue.400":"purple.900"}>/   SWE </Heading>
             </Flex>
-            <Button leftIcon={<FaDownload/>} borderRadius="3xl" fontFamily={"Lato"}>Resume</Button>
+            <Button leftIcon={<FaDownload/>} borderRadius="3xl" fontFamily={"Lato"} onClick={()=> window.open("https://drive.google.com/file/d/1GPurogiD1dwhphR07-dqVAUV0G5q3Hhq/view?usp=sharing")}>Resume</Button>
             <IconButton icon={isDark? <FaSun/>: <FaMoon/>} isRound="true" onClick={toggleColorMode}></IconButton>
             <IconButton icon={<FaLinkedin/>} isRound="true"></IconButton>
             <IconButton icon={<FaGithub/>} isRound="true" mr="20vw"></IconButton>
